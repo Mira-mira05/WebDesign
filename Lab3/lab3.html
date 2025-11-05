@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <!--Header section-->
+    <div id=" header"></div>
+    <h1>Teyvatt Counseling Contact Form</h1>
+    <span>Welcome! It's nice to meet <strong>you</strong></span>
+    <br>
+
+    <!--contact form-->
+    <div id="content">
+    <p>Please enter your information below.</p>
+    <br>
+    <form action=" ">
+        Email: <input type="email" name="useremail"> <br>
+        Appointment Date: <input type="date" name="tarikh"> <br>
+        Website Satisfaction level(0-10) <br>
+
+        <!--Range Slider for user satisfaction-->
+        <input id="satis.value" type="range" min="0" max="10" step="1" value="0">
+
+        Submit: <input type="submit" value="Hantar"><br><br>
+    </form>
+    </div>
+
+    <!--inline calculator-->
+    <div id="content">
+       <form oninput="z.value=parseInt(x.value)+parseInt(y.value)">
+            <input id="x" type="range" min="0" max="10" step="1"
+            value="0">0<br>+
+            <input id = "y" type="number" value="10">
+            <br>=
+            <output name = "z" for ="x y"></output>
+        </form>
+    </div>
+
+    <div id="footer"></div>
+    <p>For further Information, feel free to email us!</p><br>
+    <a href="thisEmail@gmail.com">thisEmail@gmail.com</a>
+    <hr style="background-color:khaki;">Website belong to the Teyvatt Counseling Group &#169</hr>
+</html>
