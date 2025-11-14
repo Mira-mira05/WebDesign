@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    
+    <header>
+        <title>Lab 4: Responsive design</title>
+        <h1 style="background-color:darkmagenta; text-align:center; color:azure">Cats are cute!</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+        <video width = "540" height ="200" controls>
+            <source src="catto.mp4" type = "video/mp4">
+            Pelayar anda tidak menyokong tag video.
+        </video>
+        </div>
+    </section>
+
+    <section>
+         <style type = "text/css">
+            u1{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            a:link, a:visited{
+                display:block;
+                font-weight: bold;
+                color: #FFFFFF;
+                background-color: #a721bf;
+                width: 120px;
+                text-align: center;
+                padding: 4px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            a:hover, a:active{
+                background-color: #c915e9;
+            }
+        </style>
+
+        <style type = "text/css">
+            a:link {color:#FF0000;}
+            a:visited {color: #00FF00;}
+            a:hover {color:#FF00FF}
+            a:active {color: #0000FF}
+        </style>
+        
+   </section>
+
+        <nav>
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">Recent News</a></li>
+            <li><a href="#contact">Contact us!!</a></li>
+            <li><a href="#about">About us</a></li>
+        </ul>
+        </nav>
+
+    <section>
+<form action="submit_form.php" method="post">
+    <label for name="Name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="age">Age: </label>
+    <select id="age" name="age">
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+    </select><br><br>
+
+    <label for="email">Email:</label> 
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for ="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="hobby">Select your hobbies:</label><br>
+    <input type="checkbox" id="hobby1" name="hobby1"
+    value="Dancing">
+    <label for="hobby1">Dancing</label>
+    <input type="checkbox" id="hobby2" name="hobby2"
+    value="gaming">
+    <label for="hobby2">gaming</label><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</section>
+
+    <footer>
+       <p style="background-color: darkmagenta; color:azure">&copy; Allright reserved</style></p>
+    </footer>
+</html>
